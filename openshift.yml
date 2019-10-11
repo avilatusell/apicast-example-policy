@@ -27,7 +27,7 @@ objects:
         name: apicast-policy:example
     source:
       git:
-        uri: https://github.com/avilatusell/apicast-example-policy
+        uri: https://github.com/avilatusell/apicast-example-policy/tree/update_openshiftyml
         ref: 'master'
       type: Git
     strategy:
