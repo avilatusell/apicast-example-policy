@@ -88,4 +88,4 @@ objects:
 parameters:
 - name: AMP_RELEASE
   required: true
-  description: 2.6.0
+  description: 2.8.0
