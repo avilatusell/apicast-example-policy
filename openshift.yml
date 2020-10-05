@@ -35,7 +35,8 @@ objects:
       sourceStrategy:
         from:
           kind: ImageStreamTag
-          name: 'amp-apicast:${AMP_RELEASE}'
+          namespace: apicast-self-managed
+          name: apicast-gateway-rhel8:latest
 
 - apiVersion: v1
   kind: BuildConfig
