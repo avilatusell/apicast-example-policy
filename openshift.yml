@@ -24,11 +24,11 @@ objects:
     output:
       to:
         kind: ImageStreamTag
-        name: apicast-policy:example
+        name: 'apicast-policy:example'
     source:
       git:
         uri: https://github.com/avilatusell/apicast-example-policy
-        ref: 'update_openshiftyml'
+        ref: ''
       type: Git
     strategy:
       type: Source
