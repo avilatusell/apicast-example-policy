@@ -52,6 +52,12 @@ objects:
         kind: ImageStreamTag
         namespace: apicast-self-managed
         name: apicast-gateway-rhel8:latest
+    postCommit:
+      args:
+        - '--test'
+        - '--lazy'
+      command:
+        - bin/apicast
     resources: {}
     runPolicy: Serial
     source:
