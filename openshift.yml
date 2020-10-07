@@ -50,7 +50,8 @@ objects:
     output:
       to:
         kind: ImageStreamTag
-        name: 'amp-apicast:latest'
+        namespace: apicast-self-managed
+        name: apicast-gateway-rhel8:latest
     resources: {}
     runPolicy: Serial
     source:
