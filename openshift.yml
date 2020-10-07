@@ -51,12 +51,6 @@ objects:
       to:
         kind: ImageStreamTag
         name: 'amp-apicast:latest'
-    postCommit:
-      args:
-        - '--test'
-        - '--lazy'
-      command:
-        - bin/apicast
     resources: {}
     runPolicy: Serial
     source:
